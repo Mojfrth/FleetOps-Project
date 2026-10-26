@@ -1,0 +1,230 @@
+/* Persistent dark theme. Light mode is the default. */
+html[data-theme="dark"] {
+  color-scheme: dark;
+  background: #0e1512;
+  color: #e5ece8;
+  --ink: #e5ece8;
+  --muted: #9aa8a1;
+  --line: #2a3832;
+  --surface: #151f1b;
+}
+
+html[data-theme="dark"] body,
+html[data-theme="dark"] #root,
+html[data-theme="dark"] .app-shell,
+html[data-theme="dark"] .main-area {
+  background: #0e1512;
+  color: #e5ece8;
+}
+
+html[data-theme="dark"] .sidebar,
+html[data-theme="dark"] .topbar {
+  background: #111a16;
+  border-color: #25332d;
+  color: #e5ece8;
+}
+
+html[data-theme="dark"] .brand,
+html[data-theme="dark"] .panel-title,
+html[data-theme="dark"] .stat-value,
+html[data-theme="dark"] .vehicle-name,
+html[data-theme="dark"] .workspace-switch strong,
+html[data-theme="dark"] .profile strong,
+html[data-theme="dark"] .station-row > span:nth-child(2),
+html[data-theme="dark"] .route-end,
+html[data-theme="dark"] .modal-head h2,
+html[data-theme="dark"] .drawer-head h2,
+html[data-theme="dark"] .page-heading h1 {
+  color: #e5ece8;
+}
+
+html[data-theme="dark"] .workspace-switch,
+html[data-theme="dark"] .fleet-health,
+html[data-theme="dark"] .panel,
+html[data-theme="dark"] .stat-card,
+html[data-theme="dark"] .vehicle-card,
+html[data-theme="dark"] .summary-card,
+html[data-theme="dark"] .modal,
+html[data-theme="dark"] .detail-drawer,
+html[data-theme="dark"] .reserve-note {
+  background: #151f1b;
+  border-color: #293831;
+  color: #dce5df;
+}
+
+html[data-theme="dark"] .search-box,
+html[data-theme="dark"] .filter-button,
+html[data-theme="dark"] .cancel-button,
+html[data-theme="dark"] .row-action,
+html[data-theme="dark"] .subtle-button,
+html[data-theme="dark"] .dots-button,
+html[data-theme="dark"] .icon-button,
+html[data-theme="dark"] .help-button,
+html[data-theme="dark"] .today-chip {
+  background: #18231e;
+  border-color: #304038;
+  color: #cbd7d0;
+}
+
+html[data-theme="dark"] .nav-item { color: #aab7b0; }
+html[data-theme="dark"] .nav-item:hover,
+html[data-theme="dark"] .nav-item.selected {
+  background: #1a2d25;
+  color: #74d2ae;
+}
+
+html[data-theme="dark"] .workspace-switch span,
+html[data-theme="dark"] .profile span,
+html[data-theme="dark"] .panel-subtitle,
+html[data-theme="dark"] .stat-heading,
+html[data-theme="dark"] .stat-foot,
+html[data-theme="dark"] .vehicle-location,
+html[data-theme="dark"] .section-caption,
+html[data-theme="dark"] .summary-card > span,
+html[data-theme="dark"] .capacity-text,
+html[data-theme="dark"] .crumb,
+html[data-theme="dark"] .page-heading p,
+html[data-theme="dark"] .transfer-ref span,
+html[data-theme="dark"] .activity-copy span,
+html[data-theme="dark"] .activity-time,
+html[data-theme="dark"] .route-duration,
+html[data-theme="dark"] .route-stop small,
+html[data-theme="dark"] .field-label,
+html[data-theme="dark"] .drawer-status {
+  color: #9aa8a1;
+}
+
+html[data-theme="dark"] .crumb strong,
+html[data-theme="dark"] .transfer-ref strong,
+html[data-theme="dark"] .activity-copy strong,
+html[data-theme="dark"] .drawer-package strong,
+html[data-theme="dark"] .route-stop strong {
+  color: #e5ece8;
+}
+
+html[data-theme="dark"] .activity-row,
+html[data-theme="dark"] tbody tr,
+html[data-theme="dark"] .station-row,
+html[data-theme="dark"] .route-row,
+html[data-theme="dark"] .cluster-group,
+html[data-theme="dark"] .drawer-route {
+  border-color: #2a3832;
+}
+
+html[data-theme="dark"] .activity-row:hover,
+html[data-theme="dark"] tbody tr:hover { background: #1a2821; }
+html[data-theme="dark"] thead th { background: #18231e; color: #9aa8a1; border-color: #2a3832; }
+html[data-theme="dark"] tbody td { color: #cbd7d0; }
+
+html[data-theme="dark"] .vehicle-illustration,
+html[data-theme="dark"] .workspace-avatar,
+html[data-theme="dark"] .reserve-note-icon,
+html[data-theme="dark"] .package-icon {
+  background: #20352b;
+  color: #80d5b1;
+}
+
+html[data-theme="dark"] .field-label input,
+html[data-theme="dark"] .field-label select {
+  background: #101915;
+  border-color: #34443b;
+  color: #e5ece8;
+}
+
+html[data-theme="dark"] select option { background: #101915; color: #e5ece8; }
+html[data-theme="dark"] .smart-assignment { background: #19271f; border-color: #2b4034; }
+html[data-theme="dark"] .smart-assignment strong { color: #dce9e0; }
+html[data-theme="dark"] .smart-assignment span { color: #9eafa4; }
+html[data-theme="dark"] .network-map { background-color: #121b17; }
+html[data-theme="dark"] .map-legend,
+html[data-theme="dark"] .node-name { background: #202c26; color: #cbd7d0; border-color: #34443b; }
+html[data-theme="dark"] .route-connector::before { background: #34443b; }
+html[data-theme="dark"] .modal-backdrop,
+html[data-theme="dark"] .detail-drawer-backdrop { background: #050907c9; }
+html[data-theme="dark"] .toast { background: #1d2b24; color: #e5ece8; border-color: #34443b; }
+html[data-theme="dark"] .demo-flow { background: linear-gradient(115deg, #14251d, #17221c); border-color: #2c4939; }
+html[data-theme="dark"] .demo-flow h2 { color: #eaf4ed; }
+html[data-theme="dark"] .demo-flow p,
+html[data-theme="dark"] .demo-steps { color: #a8b9ae; }
+html[data-theme="dark"] .demo-steps i { background: #20382a; color: #83ddb3; }
+html[data-theme="dark"] .demo-drawer-hint { background: #1a2920; border-color: #2e4637; color: #afc0b4; }
+html[data-theme="dark"] .theme-toggle { color: #f2c879; }
+html[data-theme="dark"] .vehicle-bottom .configure-button,
+html[data-theme="dark"] .vehicle-bottom button:not(.primary-button) { background: #1b2922; border-color: #34443b; color: #cbd7d0; }
+html[data-theme="dark"] .empty-state { color: #9aa8a1; }
+html[data-theme="dark"] .empty-state strong { color: #e5ece8; }
+html[data-theme="dark"] .node-busy .node-mark { background: #49341c; color: #f0bd68; }
+html[data-theme="dark"] .map-node:hover .node-mark { box-shadow: 0 0 0 4px #ffffff18; }
+
+.demo-flow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  margin: 0 0 18px;
+  padding: 20px 22px;
+  border: 1px solid #dcebe1;
+  border-radius: 10px;
+  background: linear-gradient(115deg, #f0f8f2, #f8fbf8);
+}
+.demo-copy { min-width: 0; }
+.demo-kicker { display: flex; align-items: center; gap: 6px; color: #178263; font-size: 9px; font-weight: 800; letter-spacing: .9px; }
+.demo-flow h2 { margin: 7px 0 4px; color: #25342c; font: 700 17px Manrope, sans-serif; }
+.demo-flow p { margin: 0; color: #738179; font-size: 11px; line-height: 1.55; }
+.demo-steps { display: flex; align-items: center; gap: 8px; margin-top: 12px; color: #64746a; font-size: 9px; font-weight: 600; }
+.demo-steps span { display: flex; align-items: center; gap: 5px; white-space: nowrap; }
+.demo-steps i { display: grid; width: 17px; height: 17px; place-items: center; border-radius: 50%; background: #dcefe3; color: #178263; font-size: 9px; font-style: normal; }
+.demo-button { flex: none; }
+.demo-drawer-hint { margin-top: 18px; padding: 11px 12px; border: 1px solid #dcebe1; border-radius: 7px; background: #f4faf5; color: #587060; font-size: 10px; line-height: 1.5; }
+.theme-toggle { flex: none; }
+.detail-drawer { box-sizing: border-box; min-height: 0; overflow-y: auto; }
+.vehicle-bottom .maintenance-note { font-size: 9px; color: #9a8060; font-weight: 600; padding: 5px 4px; }
+.station-status-dot.station-ready { background: #178263; box-shadow: 0 0 0 3px #e7f4ee; }
+.vehicle-actions { display: flex; align-items: center; gap: 8px; }
+.setup-guide { display: grid; grid-template-columns: minmax(0, 1fr) minmax(260px, .85fr); gap: 24px; align-items: center; margin: 0 0 18px; padding: 20px 22px; border: 1px solid #dcebe1; border-radius: 10px; background: linear-gradient(115deg, #f0f8f2, #f8fbf8); }
+.setup-guide h2 { margin: 7px 0 4px; color: #25342c; font: 700 17px Manrope, sans-serif; }
+.setup-guide p { margin: 0; color: #738179; font-size: 11px; line-height: 1.55; }
+.setup-steps { display: grid; gap: 6px; }
+.setup-steps button { display: flex; align-items: center; gap: 9px; width: 100%; padding: 8px 10px; border: 1px solid #dcebe1; border-radius: 6px; background: #fff; color: #40584a; text-align: left; font-size: 10px; font-weight: 600; }
+.setup-steps button span { flex: 1; }
+.setup-steps i { display: grid; width: 20px; height: 20px; place-items: center; border-radius: 50%; background: #e5f3e9; color: #178263; font-style: normal; }
+.empty-panel { display: flex; align-items: center; justify-content: space-between; gap: 14px; margin-bottom: 14px; padding: 16px; }
+.map-empty { position: absolute; inset: 40% 0 auto; color: #8c9690; text-align: center; font-size: 11px; }
+.drawer-hint { margin-top: 18px; padding: 11px 12px; border: 1px solid #dcebe1; border-radius: 7px; background: #f4faf5; color: #587060; font-size: 10px; line-height: 1.5; }
+html[data-theme="dark"] .setup-guide { background: linear-gradient(115deg, #14251d, #17221c); border-color: #2c4939; }
+html[data-theme="dark"] .setup-guide h2 { color: #eaf4ed; }
+html[data-theme="dark"] .setup-guide p { color: #a8b9ae; }
+html[data-theme="dark"] .setup-steps button { background: #18231e; border-color: #304038; color: #cbd7d0; }
+html[data-theme="dark"] .setup-steps i { background: #20382a; color: #83ddb3; }
+html[data-theme="dark"] .empty-panel { background: #151f1b; border-color: #293831; color: #dce5df; }
+html[data-theme="dark"] .drawer-hint { background: #1a2920; border-color: #2e4637; color: #afc0b4; }
+.vehicle-bottom .configure-button { border: 1px solid #e6ebe7; background: #fff; color: #58635d; border-radius: 5px; padding: 5px 8px; font-size: 9px; font-weight: 600; }
+.vehicle-bottom .configure-button:hover:not(:disabled) { border-color: #178263; color: #126c52; background: #f5faf7; }
+.vehicle-bottom .configure-button:disabled { opacity: .45; cursor: not-allowed; }
+
+/* Hide demo-only shell controls that have no implemented behavior. */
+.workspace-switch,
+.settings-link,
+.profile,
+.top-actions > .icon-button:not(.theme-toggle),
+.top-actions > .top-divider,
+.top-actions > .help-button,
+.activity-panel .dots-button,
+.table-tools .filter-button,
+.search-box kbd,
+.mobile-menu { display: none !important; }
+.workspace-switch { display: none !important; }
+.demo-launch { border-color: #dcebe1; color: #178263; background: #f4faf5; }
+.demo-launch:hover:not(:disabled) { background: #e8f4ec; }
+
+@media (max-width: 720px) {
+  .setup-guide { grid-template-columns: 1fr; gap: 14px; padding: 15px; }
+  .demo-flow { align-items: flex-start; flex-direction: column; gap: 12px; padding: 15px; }
+  .demo-steps { flex-wrap: wrap; gap: 5px; }
+  .demo-steps > svg { width: 9px; }
+  .demo-button { align-self: flex-start; }
+}
+
+/* Live demo vehicle markers are placed using interpolated API coordinates. */
+.vehicle-map-marker{position:absolute;z-index:2;display:flex;align-items:center;gap:4px;transform:translate(-50%,-50%);padding:4px 6px;border:2px solid #fff;border-radius:999px;box-shadow:0 2px 8px #172a1d35;white-space:nowrap;font-size:8px;font-weight:700;pointer-events:auto;transition:left 1s linear,top 1s linear}.vehicle-map-marker svg{flex:none}.vehicle-marker-approach{background:#eaf1ff;color:#4369b0}.vehicle-marker-transit{background:#fff0d8;color:#a66b15}.vehicle-map-marker span{max-width:60px;overflow:hidden;text-overflow:ellipsis}
+html[data-theme="dark"] .vehicle-map-marker{border-color:#121b17;box-shadow:0 2px 9px #0009}.vehicle-marker-approach{background:#22314b;color:#aec8ff}.vehicle-marker-transit{background:#47351d;color:#ffd18a}
